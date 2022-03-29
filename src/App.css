@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+    margin: 32px;
+    background-color: #a3d681;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.random-button {
+  background-color: rgb(221, 227, 255);
+  padding: 16px;
+  border: none;
+  border-radius: 6px;
+  margin: 24px;
+}
+
+.random-button:hover{
+    background-color: rgb(115, 190, 255);
+}
+
+h1, h3 {
+  padding: 25px;
+  margin: 0 16px 0 16px;
+}
+
+h1 {
+  display: flex;
+}
+
+th {
+  padding:32px;
+  margin: 0 16px 0 16px;
+}
+
+.hr-line {
+  width: 800px;
+}
+
+#btn-container {
+  display: flex;
+  align-items: flex-start;
 }
